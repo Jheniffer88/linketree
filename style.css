@@ -1,5 +1,24 @@
 img {
     border-radius: 50%;
-    windth: 200px;
+    width: 200px;
     height: 200px;
+}
+body{
+    background-color: rgb(32, 24, 75);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px  auto;
+    color: slateblue;
+    width: 30%;
 }
