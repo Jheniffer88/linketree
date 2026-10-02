@@ -4,10 +4,12 @@ img {
     height: 200px;
 }
 body{
-    background-color: rgb(32, 24, 75);
+    background-color: rgb(29, 29, 46);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     text-align: center;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
 }
 
 
@@ -15,10 +17,23 @@ a {
     background-color: white;
     font-size: 20px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     display: block;
     text-align: center;
     margin: 10px  auto;
     color: slateblue;
     width: 30%;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(21, 22, 22);
+    color: aqua;
+}
+
+h1 {
+    color: rgb(79, 82, 206);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
